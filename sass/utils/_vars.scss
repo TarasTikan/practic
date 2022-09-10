@@ -1,0 +1,14 @@
+--root {
+    :root {
+        --primary-text-color: #333333;
+        --secondary-text-color: #757575;
+        --accent-color: #2196f3;
+        --accent-color-2: #f5f4fa;
+        --primary-bg-color: #fff;
+        --secondary-bg-color: #2f303a;
+        --bg-gradient-hero: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        )
+      };
+}
