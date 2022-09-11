@@ -2,6 +2,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: var(primary-text-color);
   background-color: var(primary-bg-color);
+  background-image: url(../img/hero-back.png);
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 p,
@@ -40,7 +43,7 @@ img {
 
 --root :root {
   --primary-text-color: #333333;
-  --secondary-text-color: #757575;
+  --secondary-text-color: #21264F;
   --accent-color: #2196f3;
   --accent-color-2: #f5f4fa;
   --primary-bg-color: #fff;
@@ -157,30 +160,101 @@ header {
   height: 40px;
 }
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
+.hero {
+  padding-top: 64px;
 }
 
-.visually-hidden {
+.hero__title {
+  font-weight: 800;
+  font-size: 86px;
+  line-height: 106px;
+  letter-spacing: 2.64px;
+  color: var(--secondary-text-color);
+  width: 485px;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--secondary-text-color);
+  width: 445px;
+  margin-top: 20px;
+}
+
+.hero__btn {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #21264F;
+  border-radius: 32px;
+  padding: 10px 25px 10px 25px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero__after__text {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--secondary-text-color);
+  margin-left: 15px;
+}
+
+.wrap__hero {
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.hero__container {
+  padding-top: 119px;
+}
+
+.hero .container {
+  display: flex;
+}
+
+.graphics {
+  padding-top: 187px;
+  padding-bottom: 521px;
+}
+
+.graphics__container {
+  background-color: #303881;
+  border-radius: 40px;
+  height: 940px;
+  padding: 53px 163px 0px 266px;
+  position: relative;
+}
+
+.graphics__title {
+  font-weight: 800;
+  font-size: 66px;
+  line-height: 82px;
+  letter-spacing: 2.04px;
+  color: #FFFFFF;
+  width: 771px;
+  margin-bottom: 17px;
+}
+
+.graphics__text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+  width: 639px;
+}
+
+.graphics__img {
+  width: 1032px;
+  height: 664px;
+  top: 58%;
+  left: 50%;
+  transform: translateX(-50%);
   position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 
 .visually-hidden {

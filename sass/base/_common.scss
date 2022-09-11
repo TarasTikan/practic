@@ -2,4 +2,7 @@ body {
     font-family: "Open Sans", sans-serif;
     color: var(primary-text-color);
     background-color: var(primary-bg-color);
+    background-image: url(../img/hero-back.png);
+    background-repeat: repeat;
+    background-size: cover;
 }

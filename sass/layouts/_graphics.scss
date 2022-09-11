@@ -1,0 +1,39 @@
+.graphics {
+    padding-top: 187px;
+    padding-bottom: 521px;
+}
+
+.graphics__container {
+    background-color: #303881;
+border-radius: 40px;
+height: 940px;
+padding: 53px 163px 0px 266px;
+position: relative;
+}
+
+.graphics__title {
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 82px;
+    letter-spacing: 2.04px;
+    color: #FFFFFF; 
+    width: 771px;  
+    margin-bottom: 17px;
+}
+
+.graphics__text {
+    font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+color: #FFFFFF;
+width: 639px;
+}
+
+.graphics__img {
+    width: 1032px;
+    height: 664px;
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
